@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 1554003250}
   - component: {fileID: 1554003251}
   m_Layer: 0
-  m_Name: Launch Point
+  m_Name: LaunchPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,7 +463,7 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4290559164
+    rgba: 4290756543
   m_Size: 3
 --- !u!1 &1631793735
 GameObject:
@@ -489,7 +489,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1631793735}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 3
@@ -523,9 +523,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabProjectile: {fileID: 392271717}
+  velocityMult: 8
   launchPoint: {fileID: 1554003249}
   launchPos: {x: 0, y: 0, z: 0}
-  projectile: {fileID: 0}
+  projectile: {fileID: 392271717}
   aimingMode: 0
 --- !u!1001 &1764124877
 Prefab:
